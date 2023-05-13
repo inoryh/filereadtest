@@ -28,7 +28,6 @@ class Change{
         fos.close();
     }
 
-
     /**
      * 读取文件的信息
      * @throws IOException
