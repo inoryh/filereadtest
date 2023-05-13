@@ -8,6 +8,7 @@ import java.io.*;
  * @Package PACKAGE_NAME
  */
 
+
 /**
  * 文件交换就是change
  */
@@ -27,6 +28,7 @@ class Change{
         }
         fos.close();
     }
+
 
     /**
      * 读取文件的信息
