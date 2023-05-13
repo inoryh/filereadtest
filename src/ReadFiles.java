@@ -18,6 +18,7 @@ class Change{
      * DoubleSize的意思是Double类型的数据字节数为8
      */
     final static int DoubleSize=8;
+
     public void getwrite() throws IOException {
         FileOutputStream fos;
         byte arry[]={1,5,9,3,5,7,2,6,8,4};
