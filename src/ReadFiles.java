@@ -21,7 +21,7 @@ class Change{
     public void getwrite() throws IOException {
         FileOutputStream fos;
         byte arry[]={1,5,9,3,5,7,2,6,8,4};
-        fos = new FileOutputStream("E:\\javastudyprogram\\sql\\test文件.txt");
+        fos = new FileOutputStream("test文件.txt");
         for (int i=0;i<arry.length;i++){
                 fos.write(arry[i]);
         }
@@ -35,7 +35,7 @@ class Change{
      */
     public void getread() throws IOException {
         FileInputStream fis;
-        fis = new FileInputStream("E:\\javastudyprogram\\sql\\test文件.txt");
+        fis = new FileInputStream("test文件.txt");
         int value;
         while ((value=fis.read())!=-1){
             System.out.print(value+" ");
@@ -56,6 +56,7 @@ class Change{
         }
         flr.close();
     }
+
 
     /**
      * 打开文件读取文件的数据
